@@ -1,0 +1,98 @@
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    z-index: 999;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: beige;
+    left: 500px;
+    top: 400px;  
+    justify-content: space-around;
+    align-items: center;
+}
+
+.auth-form-input {
+    width: 250px;
+}
+
+.warning {
+    padding-left: 20px;
+    width: 100%;
+    color: red;
+    font-size: 12px;
+}
+
+.chat-fields {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.chat-users {
+    width: 50%;
+    height: 100%;
+}
+
+.chat-field {
+    width: 50%;
+    height: 95%;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.chat-field-messages {
+    overflow: auto;
+    height: 95%;
+}
+
+.chat-field-input {
+    width: 70%;
+    border: 1px solid blueviolet;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.my-message {
+    background-color:antiquewhite;
+    position: relative;
+    left: 48%;
+}
+
+.alien-message {
+    background-color: lightblue;
+}
+
+.message {
+    width: 50%;
+    border: 1px solid blueviolet;
+    border-radius: 2px;
+    padding: 3px;
+    margin: 5px;
+}
+
+.message-status {
+    font-size: 12px;
+}
+
+.chat-users {
+    height: 95%;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.user {
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+}
