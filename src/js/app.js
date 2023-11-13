@@ -14,7 +14,7 @@ authWindow.addEventListener('submit', (e) => {
   const authFormInput = authWindow.querySelector('.auth-form-input');
   const nickName = authFormInput.value;
 
-  const ws = new WebSocket('wss://js-hw-ws-backend.onrender.com/ws');
+  const ws = new WebSocket('wss://js-hw-ws-backend.onrender.com:10000/ws');
 
   ws.addEventListener('message', (event) => {
     const data = JSON.parse(event.data);
